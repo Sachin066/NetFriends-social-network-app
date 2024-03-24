@@ -5,30 +5,32 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
-        android:title="Home"
-        app:cnb_iconColor="@color/colorPink"/>
-    <item
-        android:id="@+id/profile"
-        android:icon="@drawable/ic_profile"
-        android:title="Profile"
-        app:cnb_iconColor="@color/colorBlue" />
+        android:title=""
+        />
+
     <item
         android:id="@+id/videos"
         android:icon="@drawable/ic_video"
-        android:title="Videos"
-        app:cnb_iconColor="@color/colorGreen" />
+        android:title=""
+        />
 
     <item
         android:id="@+id/add_post"
-        android:icon="@drawable/add_post"
-        android:title="Post"
-        app:cnb_iconColor="@color/colorAccent"/>
+        android:icon="@drawable/ic_post"
+        android:title=""
+        />
 
     <item
         android:id="@+id/messenger"
         android:icon="@drawable/ic_message"
-        android:title="Messenger"
-        app:cnb_iconColor="@color/yellow"/>
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title=""
+        />
 
 
 </menu>

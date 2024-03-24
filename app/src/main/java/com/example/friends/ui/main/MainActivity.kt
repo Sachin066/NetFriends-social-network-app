@@ -48,8 +48,6 @@ class MainActivity : AppCompatActivity() {
                     navController.navigate(R.id.videosFragment)
                 }
             }
-            binding.bottomMenu.showBadge(R.id.videos, 8)
-            binding.bottomMenu.showBadge(R.id.home, 5)
         }
     }
 
