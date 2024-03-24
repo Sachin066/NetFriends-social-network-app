@@ -1,0 +1,23 @@
+package com.example.friends.ui.main.fragment
+
+import android.os.Bundle
+import android.view.View
+import androidx.fragment.app.Fragment
+import com.google.firebase.auth.FirebaseAuth
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
+
+
+@AndroidEntryPoint
+class PublishFragment  : Fragment() {
+
+    @Inject
+    lateinit var auth: FirebaseAuth
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+
+
+    }
+}
