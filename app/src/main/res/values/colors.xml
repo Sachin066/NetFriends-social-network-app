@@ -41,6 +41,7 @@
     <color name="Navbar">#495057</color>
     <color name="icons">#F8F9FA</color>
     <color name="bg">#212529</color>
+    <color name="btn">#6C757D </color>
 
 
 </resources>

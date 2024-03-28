@@ -32,12 +32,11 @@
         >
 
         <ImageButton
-            android:layout_width="35dp"
+            android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:layout_marginRight="@dimen/_18sdp"
+            android:background="@color/Navbar"
             app:tint="@color/white"
-
             android:clickable="true"
             android:scaleType="fitXY"
             android:src="@drawable/ic_image_default"
@@ -62,18 +61,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:elevation="@dimen/_4sdp"
-
         android:layout_margin="@dimen/_4sdp"
-
         android:gravity="center_vertical"
         >
 
         <ImageButton
-            android:layout_width="40dp"
+            android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_weight="1"
             android:scaleType="fitXY"
-            android:background="@color/colorPrimary"
+            android:layout_marginRight="@dimen/_18sdp"
+            android:background="@color/Navbar"
             app:tint="@color/white"
             android:src="@drawable/ic_videocam"
              />
@@ -87,77 +84,6 @@
             android:layout_weight="3"
             android:textColor="@color/white"
 
-            />
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/bottom_article"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:elevation="@dimen/_4sdp"
-        android:layout_margin="@dimen/_4sdp"
-        android:gravity="center_vertical"
-
-        >
-
-        <ImageButton
-            android:layout_width="35dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-            android:background="@color/colorPrimary"
-            app:tint="@color/white"
-            android:src="@drawable/ic_article"
-             />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Just article"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_weight="3"
-            android:textColor="@color/white"
-
-            />
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/bottom_attache"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:elevation="@dimen/_4sdp"
-        android:layout_margin="@dimen/_4sdp"
-        android:gravity="center_vertical"
-        >
-
-        <ImageButton
-            android:layout_width="35dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-            android:rotation="30"
-            android:background="@color/colorPrimary"
-            app:tint="@color/white"
-            android:src="@drawable/ic_attach_file"
-             />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Add a attachment"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_weight="3"
-            android:textColor="@color/white"
             />
 
 

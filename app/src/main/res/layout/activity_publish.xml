@@ -113,7 +113,7 @@
                             android:layout_centerInParent="true"
                             android:ellipsize="end"
                             android:lines="1"
-                            android:text=" anyone"
+                            android:text="Visibility"
                             android:textColor="@color/text_color"
                             android:textSize="11sp"
                             android:textStyle="bold" />

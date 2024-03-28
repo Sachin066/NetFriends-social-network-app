@@ -8,7 +8,7 @@
     app:cardCornerRadius="10dp"
     app:cardElevation="10dp"
     app:cardUseCompatPadding="true"
-    app:cardBackgroundColor="#FCF9F9"
+    app:cardBackgroundColor="@color/card_color"
     android:layout_margin="@dimen/_2sdp"
     app:contentPadding="@dimen/_2sdp"
     >
@@ -184,7 +184,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="#F5F4F0"
+
             />
 
         <LinearLayout

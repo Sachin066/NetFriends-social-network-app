@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:hint="Name "
-                app:startIconDrawable="@drawable/ic_profile"
+                app:startIconDrawable="@drawable/ic_profile_2"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText

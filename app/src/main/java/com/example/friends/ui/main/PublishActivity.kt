@@ -213,23 +213,23 @@ class PublishActivity : AppCompatActivity() {
                 binding.publishCaption.setLines(4)
                 bottomSheetDialog.dismiss()
             }
-            sheetView.findViewById<LinearLayout>(R.id.bottom_article).setOnClickListener {
-                Toast.makeText(this, "article", Toast.LENGTH_SHORT).show()
-                bottomSheetDialog.dismiss()
-                binding.publishCaption.setLines(12)
-                binding.publishVideo.visibility=View.GONE
-                binding.publishImage.visibility=View.GONE
-                imageUri=null
-                videoUri=null
-            }
-            sheetView.findViewById<LinearLayout>(R.id.bottom_attache).setOnClickListener {
-                binding.publishVideo.visibility=View.GONE
-                binding.publishImage.visibility=View.GONE
-                imageUri=null
-                videoUri=null
-
-                Toast.makeText(this, "attache", Toast.LENGTH_SHORT).show()
-            }
+//            sheetView.findViewById<LinearLayout>(R.id.bottom_article).setOnClickListener {
+//                Toast.makeText(this, "article", Toast.LENGTH_SHORT).show()
+//                bottomSheetDialog.dismiss()
+//                binding.publishCaption.setLines(12)
+//                binding.publishVideo.visibility=View.GONE
+//                binding.publishImage.visibility=View.GONE
+//                imageUri=null
+//                videoUri=null
+//            }
+//            sheetView.findViewById<LinearLayout>(R.id.bottom_attache).setOnClickListener {
+//                binding.publishVideo.visibility=View.GONE
+//                binding.publishImage.visibility=View.GONE
+//                imageUri=null
+//                videoUri=null
+//
+//                Toast.makeText(this, "attache", Toast.LENGTH_SHORT).show()
+//            }
 
             sheetView.findViewById<ImageView>(R.id.bottom_close).setOnClickListener {
                 bottomSheetDialog.dismiss()
