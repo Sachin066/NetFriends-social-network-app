@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -25,7 +26,7 @@
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="@dimen/_10sdp"
                 app:cardUseCompatPadding="true"
-                app:cardBackgroundColor="#FCF9F9"
+                app:cardBackgroundColor="@color/bg"
                 app:contentPadding="6dp"
                 >
                 <LinearLayout
@@ -59,7 +60,7 @@
                                 android:id="@+id/det_uNameIv"
                                 android:text="Name"
                                 android:textSize="22sp"
-                                android:textColor="#000"
+                                android:textColor="@color/text_color"
                                 android:textStyle="bold"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -68,6 +69,7 @@
                             <TextView
                                 android:id="@+id/det_pTimeIv"
                                 android:text="33 min "
+                                android:textColor="@color/text_color"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="@dimen/_2sdp"
@@ -91,6 +93,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:text="title"
+                        android:textColor="@color/text_color"
                         android:layout_margin="@dimen/_2sdp"
                         android:textStyle="normal"
                         app:trimCollapsedText="Show less"
@@ -132,7 +135,7 @@
                             android:layout_height="wrap_content"
                             android:text="14 likes"
                             android:layout_weight="1"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColor="@color/text_color"
                             android:layout_margin="@dimen/_3sdp"
                             />
                         <TextView
@@ -142,7 +145,7 @@
                             android:text=" 1.2k Comments"
                             android:textAlignment="textEnd"
                             android:layout_weight="1"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColor="@color/text_color"
                             android:gravity="end"
                             android:layout_margin="@dimen/_3sdp"
                             />
@@ -152,7 +155,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="#DAD8CD"
+                        android:background="@color/bg"
                         />
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -170,9 +173,9 @@
                             android:drawableStart="@drawable/ic_like_not"
                             android:layout_margin="@dimen/_5sdp"
                             android:background="@color/trans"
-                            android:textColor="@color/colorPrimary"
-                            android:drawableTint="@color/colorPrimary"
-                            android:backgroundTint="@color/colorPrimary"
+                            android:textColor="@color/text_color"
+                            android:drawableTint="@color/text_color"
+                            android:backgroundTint="@color/text_color"
                             android:layout_marginHorizontal="@dimen/_1sdp" />
 
 
@@ -189,7 +192,7 @@
                             android:drawableTint="@color/colorPrimary"
                             android:drawableStart="@drawable/ic_read"
                             android:layout_margin="@dimen/_5sdp"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/text_color"
                             android:backgroundTint="@color/colorPrimary"
 
                             />
@@ -212,7 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Comments"
-                android:textColor="#690528"
+                android:textColor="@color/text_color"
                 android:drawableStart="@drawable/ic_comment"
                 android:padding="2dp"
                 android:textStyle="italic"
@@ -264,7 +267,7 @@
             android:layout_toEndOf="@id/det_cAvatarTv"
             android:layout_toStartOf="@id/det_btn_comment"
             android:layout_centerVertical="true"
-            android:background="@drawable/edit_text_background"
+            android:background="@drawable/bg_chat"
             android:padding="@dimen/_6sdp"
             android:hint="Write Comment..."
             android:inputType="textMultiLine|textCapSentences"

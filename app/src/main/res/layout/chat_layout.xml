@@ -8,6 +8,7 @@
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/_5sdp"
     android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginTop="5dp"
     android:padding="15dp">
 
     <de.hdodenhof.circleimageview.CircleImageView

@@ -3,15 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white">
+    android:background="@color/bg">
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_230sdp"
-        android:src="@drawable/ic_wave"
-        android:scaleType="centerCrop"
-        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,8 +21,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/_10sdp"
-            android:text="Registration"
-            android:textColor="@color/colorWhite"
+            android:text="NetFriends"
+            android:textColor="@color/text_color"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -49,24 +43,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="@dimen/_50sdp">
+            android:layout_marginTop="@dimen/_10sdp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputTextLayoutName"
                 style="@style/text_input_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_4sdp"
-                android:hint="Name "
-                app:startIconDrawable="@drawable/ic_profile_2"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:hint="Name"
+                android:textColorHint="@color/text_color"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/inputTextName"
-                    android:inputType="textPersonName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_10sdp"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/_18sdp"
+                    android:textColor="@color/text_color"
                     />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,17 +70,18 @@
                 style="@style/text_input_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:hint="Bio"
-                app:startIconDrawable="@drawable/ic_emoji_people"
+                android:textColorHint="@color/text_color"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/inputTextBio"
-                    android:inputType="text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_10sdp"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/_18sdp"
+                    android:textColor="@color/text_color"
                     />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,17 +90,18 @@
                 style="@style/text_input_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:hint="E-mail"
-                app:startIconDrawable="@drawable/ic_action_name"
+                android:textColorHint="@color/text_color"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/inputTextEmail"
-                    android:inputType="textEmailAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_10sdp"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/_18sdp"
+                    android:textColor="@color/text_color"
                     />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -113,20 +110,22 @@
                 style="@style/text_input_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:hint="Password"
+                android:textColorHint="@color/text_color"
                 app:endIconMode="password_toggle"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/inputTextLayoutEmail"
-                app:startIconDrawable="@drawable/ic_password">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/inputTextPassword"
                     android:layout_width="match_parent"
-                    android:inputType="textPassword"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_10sdp"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/_18sdp"
+                    android:textColor="@color/text_color"
                     />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -137,8 +136,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="35dp"
-            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_marginTop="25dp"
+            app:cardBackgroundColor="@color/btn"
             app:cardCornerRadius="7dp">
 
             <TextView
@@ -150,7 +149,7 @@
                 android:foreground="?attr/selectableItemBackground"
                 android:gravity="center"
                 android:text="Register"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/text_color"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -164,6 +163,7 @@
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
             android:gravity="center"
+            android:textColor="@color/text_color"
             android:onClick="backToLogin"
             android:text="Already have account ? login "
             android:textSize="16sp"

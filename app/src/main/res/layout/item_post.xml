@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Name"
-                    android:textColor="#000"
+                    android:textColor="@color/text_color"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -65,21 +65,21 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:background="?attr/selectableItemBackground"
+                        android:background="@color/Navbar"
                         >
                         <ImageButton
                             android:id="@+id/post_image_anyone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@color/white"
+                            android:background="@color/Navbar"
                             android:src="@drawable/ic_public"
                             app:tint="@color/black" />
                         <TextView
                             android:id="@+id/post_text_anyone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="anyone"
-                            android:textColor="@color/black"
+                            android:text="Anyone"
+                            android:textColor="@color/text_color"
                             android:textSize="14sp" />
 
 
@@ -92,6 +92,7 @@
                 <TextView
                     android:id="@+id/post_TimeIv"
                     android:text="33min "
+                    android:textColor="@color/text_color"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     />
@@ -115,6 +116,7 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="normal"
+            android:textColor="@color/text_color"
             android:text="I love my mom"
             app:trimCollapsedText=" Show less"
             app:trimExpandedText=" Show More"
@@ -166,7 +168,7 @@
                 android:layout_height="wrap_content"
                 android:text="14 like"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/text_color"
                 android:layout_margin="@dimen/_3sdp"
                 />
             <TextView
@@ -176,7 +178,7 @@
                 android:text=" 1.2k Comments"
                 android:textAlignment="textEnd"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/text_color"
                 android:gravity="end"
                 android:layout_margin="@dimen/_3sdp"
                 />
@@ -204,9 +206,8 @@
                 android:drawableStart="@drawable/ic_like_not"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@color/trans"
-                android:textColor="@color/colorPrimary"
-                android:drawableTint="@color/colorPrimary"
-                android:backgroundTint="@color/colorPrimary" />
+                android:textColor="@color/text_color"
+                 />
 
 
             <Button
@@ -219,10 +220,8 @@
 
                 android:background="@color/trans"
                 android:drawableStart="@drawable/ic_comment"
-                android:drawableTint="@color/colorPrimary"
                 android:layout_margin="@dimen/_5sdp"
-                android:textColor="@color/colorPrimary"
-                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/text_color"
 
                 />
 
@@ -236,11 +235,11 @@
                 android:textAllCaps="false"
                 app:icon="@drawable/ic_read"
                 android:background="@color/trans"
-                android:drawableTint="@color/colorPrimary"
+
                 android:drawableStart="@drawable/ic_read"
                 android:layout_margin="@dimen/_5sdp"
-                android:textColor="@color/colorPrimary"
-                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/text_color"
+
 
                 />
 

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bg_chat"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginTop="5dp"
+    android:padding="15dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/user_image"
@@ -31,18 +36,20 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:text="Kareem kamal"
-        android:textColor="@color/black"
+        android:textColor="@color/text_color"
         android:textSize="16sp"
-
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/user_image"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
     <TextView
         android:id="@+id/user_bio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
+        android:textColor="@color/text_color"
         android:text="android"
         android:textSize="16sp"
         android:textStyle="bold"

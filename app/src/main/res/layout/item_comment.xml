@@ -9,7 +9,7 @@
     app:cardCornerRadius="@dimen/_5sdp"
     app:cardElevation="@dimen/_5sdp"
     android:padding="@dimen/_5sdp"
-    app:cardBackgroundColor="#FFFFFF"
+    app:cardBackgroundColor="@color/card_color"
     >
 
     <RelativeLayout
@@ -37,7 +37,7 @@
             android:layout_toRightOf="@id/item_comment_avatarTv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/text_color"
             android:layout_margin="@dimen/_2sdp"
 
 
@@ -50,7 +50,7 @@
             android:layout_marginTop="6sp"
             android:textSize="16sp"
             android:gravity="start"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/text_color"
             android:text="This is actually comment "
             android:layout_toRightOf="@id/item_comment_avatarTv"
             android:layout_margin="@dimen/_2sdp"
@@ -64,6 +64,7 @@
             android:layout_below="@id/item_comment"
             android:layout_marginStart="@dimen/_2sdp"
             android:layout_marginTop="@dimen/_2sdp"
+            android:textColor="@color/text_color"
             android:layout_marginEnd="@dimen/_2sdp"
             android:layout_marginBottom="@dimen/_2sdp"
             android:layout_toRightOf="@id/item_comment_avatarTv"
